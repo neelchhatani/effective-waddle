@@ -1,0 +1,30 @@
+body{
+background-color:darkgoldenrod;
+}
+h1{
+color:red;
+background-color:cornsilk ;
+}
+#show_sketch{
+float: right;
+}
+canvas{
+border:5px solid white;
+border-radius:20px;
+animation-name: neel_suganya;
+animation-duration:4s;
+margin-top: 50px;
+animation-iteration-count: infinite;
+}
+@keyframes neel_suganya {
+from{box-shadow: 1px 1px 38px green;}
+to{box-shadow: 1px 1px 38px chocolate;}
+}
+p{
+padding-top: 10px;
+font-size: 25px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#top{
+margin-top: 1px;
+}
